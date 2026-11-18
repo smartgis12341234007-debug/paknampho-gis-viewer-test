@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="parcel">
+      <LineStyle>
+        <color>ff0088ff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>280088ff</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>11N121</name>
+      <styleUrl>#parcel</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>100.12144936,15.69632615,0 100.12143069,15.69635729,0 100.12153315,15.69645857,0 100.12156363,15.69640588,0 100.12144936,15.69632615,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
